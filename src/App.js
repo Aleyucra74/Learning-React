@@ -1,12 +1,10 @@
 import React from 'react';
+import Contador from "./componentes/Contador";
 
 class App extends React.Component{
   render() {
     return (
-      <div>
-        <h1> OLA </h1>
-        <p> Somthiing</p>
-      </div>
+      <Contador />
     );
   }
 }
